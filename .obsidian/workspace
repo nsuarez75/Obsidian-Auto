@@ -125,17 +125,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "309cbd8a9c8b94f1",
   "lastOpenFiles": [
-    "Auto/How Tos/KTP Acceso remoto.md",
+    "Auto/How Tos/KTPF Safety.md",
     "Auto/How Tos/Connection Box KTP Mobile.md",
     "Auto/How Tos/010 Indice.md",
+    "Auto/How Tos/KTPF Safety TIA.md",
+    "TIA.md",
+    "Auto/How Tos/KTP Acceso remoto.md",
     "Auto/How Tos/000 Instrucciones.md",
-    "Auto/How Tos/KTPF Safety.md",
     "Auto/How Tos/HMI Siemens.md",
-    "Auto/How Tos/Imagenes/ServHMI.png",
-    "Auto/How Tos/KTPF Safety TIA.md"
+    "Auto/How Tos/Imagenes/ServHMI.png"
   ]
 }
