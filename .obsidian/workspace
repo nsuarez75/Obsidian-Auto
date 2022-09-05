@@ -7,8 +7,12 @@
         "id": "309cbd8a9c8b94f1",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Auto/How Tos/KTPF Safety TIA.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Auto/How Tos/KTPF Safety TIA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Auto/How Tos/KTPF Safety TIA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Auto/How Tos/KTPF Safety TIA.md"
+              }
             }
           }
         ]
@@ -121,12 +129,12 @@
   },
   "active": "309cbd8a9c8b94f1",
   "lastOpenFiles": [
-    "Auto/How Tos/000 Instrucciones.md",
     "Auto/How Tos/KTP Acceso remoto.md",
-    "Auto/How Tos/KTPF Safety.md",
-    "Auto/How Tos/HMI Siemens.md",
     "Auto/How Tos/Connection Box KTP Mobile.md",
     "Auto/How Tos/010 Indice.md",
+    "Auto/How Tos/000 Instrucciones.md",
+    "Auto/How Tos/KTPF Safety.md",
+    "Auto/How Tos/HMI Siemens.md",
     "Auto/How Tos/Imagenes/ServHMI.png",
     "Auto/How Tos/KTPF Safety TIA.md"
   ]
