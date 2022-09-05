@@ -19,4 +19,4 @@ En el apartado **Modo de operación** se ajustan las direcciones del HMI como IO
 
 Para hacer la gestión de la parte safety del HMI hay que añadir dos bloques en el programa:
 
-- 
+- a
