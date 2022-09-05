@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "57c8122b9091171b",
+    "type": "split",
+    "children": [
+      {
+        "id": "309cbd8a9c8b94f1",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6797b4e912e3da9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a51700819de8270f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af35f744993b3379",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9db88f8c6ba571c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0adb53cc0b88422f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c4fabeda9bcea99a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f085442fbda92dcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f65648751be0678",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "269e5014cf1f807e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d6e4deb79fbb4967",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "16ae8e6b47ed8351",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "309cbd8a9c8b94f1",
+  "lastOpenFiles": [
+    "Auto/How Tos/000 Instrucciones.md",
+    "Auto/How Tos/KTP Acceso remoto.md",
+    "Auto/How Tos/KTPF Safety.md",
+    "Auto/How Tos/HMI Siemens.md",
+    "Auto/How Tos/Connection Box KTP Mobile.md",
+    "Auto/How Tos/010 Indice.md",
+    "Auto/How Tos/Imagenes/ServHMI.png",
+    "Auto/How Tos/KTPF Safety TIA.md"
+  ]
+}

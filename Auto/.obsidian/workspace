@@ -1,0 +1,143 @@
+{
+  "main": {
+    "id": "c0175bedf2939e43",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c06cdad167e7146",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "How Tos/010 Indice.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ea78086f809ecad",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcb6480b30f654c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "780b1b31e9163008",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccd4fec79eff32fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "hmi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "285591759d4359c7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1ef3753f976eb2a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "13eba767a56d5f75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82486192c0344b1d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "How Tos/010 Indice.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "2522c4c969022568",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "How Tos/010 Indice.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "af63b87e9813d384",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "135180832ed8c75b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "How Tos/010 Indice.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "7c06cdad167e7146",
+  "lastOpenFiles": [
+    "How Tos/000 Instrucciones.md",
+    "How Tos/HMI Siemens.md",
+    "How Tos/Connection Box KTP Mobile.md",
+    "How Tos/KTPF Safety TIA.md",
+    "How Tos/KTPF Safety.md",
+    "How Tos/KTP Acceso remoto.md",
+    "How Tos/010 Indice.md",
+    "How Tos/Siemens.md",
+    "().md",
+    "Siemens.md"
+  ]
+}
