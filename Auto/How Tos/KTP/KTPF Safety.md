@@ -14,7 +14,7 @@ Normalmente se escoge el profisafe e-stop. Hay que escribir el ID que se ha conf
 
 A parte de configurar el ID de la [[Connection Box KTP Mobile]], es necesario que en la config del HMI esté activado el modo IO device en los ajustes [[PROFINET]], ya que si no no funcionará la seta de emergencia ni el hombre muerto.
 
-Debemos también indicar la dirección safety del HMI que configuramos en [[TIA]]  ([[KTPF Safety TIA]]) en el apartado [[PROFIsafe]] del HMI.
+Debemos también indicar la dirección [[safety]] del HMI que configuramos en [[TIA]]  ([[KTPF Safety TIA]]) en el apartado [[PROFIsafe]] del HMI.
 
 
 

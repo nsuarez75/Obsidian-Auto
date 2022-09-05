@@ -6,7 +6,7 @@ descripcion: "Configuración del acceso remoto al HMI"
 ---
 [[HMI Siemens]]
 
-Es muy recomendable activar el acceso remoto mediante SM@RTCLIENT al HMI, sobre todo en los que llevan safety ya que para realizar cualquier modificación es necesario ponerlo en modo transfer y así nos podemos ahorrar levantarnos de la silla cuarenta veces al día. 
+Es muy recomendable activar el acceso remoto mediante SM@RTCLIENT al HMI, sobre todo en los que llevan [[safety]] ya que para realizar cualquier modificación es necesario ponerlo en modo transfer y así nos podemos ahorrar levantarnos de la silla cuarenta veces al día. 
 De todas formas una vez finalizada la puesta en marcha habría que consultar al cliente si quiere mantenerlo activado o no.
 
 Lo primero es activar el servicio sm@artserver en la configuración de runtime del HMI desde [[TIA]].

@@ -1,8 +1,7 @@
-
 ---
 indice: True
 marca: Siemens
-equipo: HMI
+equipo: "PNPN Coupler"
 ---
 
 [[010 Indice]]
@@ -13,5 +12,5 @@ TABLE WITHOUT ID
 descripcion as "Descripción",
 file.link as "Nota"
 
-where marca = "Siemens" and howto = True and equipo = "HMI"
+where marca = "Siemens" and howto = True and equipo = "PNPN Coupler"
 ```
