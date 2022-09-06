@@ -9,28 +9,46 @@ descripcion: "Configuración PN/PN Coupler TIA Portal"
 
 ## Configuración PN/PN Coupler TIA Portal:
 
-El equipo que hay en el catálogo de [[TIA]] para el [[PNPN Coupler]] es el que se utiliza cuando ambos controladores son Siemens.
-Si ambos están en el mismo proyecto se utilizan ambas bocas de las dos tarjetas de red, cada una conectada a su controlador con su IP correspondiente
+Si ambos [[PLC]] a conectar están en el mismo proyecto se utilizan ambas bocas del [[PNPN Coupler]] de las dos tarjetas de red, cada una conectada a su controlador con su IP correspondiente.
 
-Normalmente los controladores están en proyectos diferentes ya que los usamos (al menos en automoción) para comunicar entre PLCs de nuestra misma línea cuyas redes no se conectan fisicamente o con otras máquinas de otros proveedores.
+Normalmente los [[PLC]] están en proyectos diferentes ya que los usamos (al menos en automoción) para comunicar entre [[PLC|PLCs]] de nuestra misma línea cuyas redes no se conectan fisicamente y cada uno tiene su propio proyecto de TIA o con otras máquinas de otros proveedores.
 
-El GSD que facilita las cosas lo podemos descargar de [[Siemens]]:
+Si están en distinto proyecto hay que activar esta opción:
 
-[GSD PNPN Coupler](https://support.industry.siemens.com/cs/document/23742537/profinet-gsd-files-gateway?dti=0&lc=en-WW)
+![[ajustecoupler1.png]]
 
-![[arbolpnpn.png]]
 
-**X1** Se utiliza en el proyecto donde se conecte al lado izquierdo y **X2** donde se conecte el lado derecho.
+El controlador del proyecto donde esté fisicamente(el que lo tenga en su armario eléctrico) el [[PNPN Coupler]] lo conectaremos a su puerto **X1**:
 
-Cada lado es completamente independiente, está separado galbánicamente, tiene su propia alimentación de 24V(a veces se les olvida alimentar el lado X2), las IPs no tienen por que estar en la misma subred, **X1** no sabe que existe **X2** y viceversa.
+![[Pasted image 20220906123253.png]]
+El puerto **X2** no hace falta configurarlo, se puede dejar la IP y nombre sin asignar.
 
-En el hardware se configura el intercambio de datos:
+Después hay que definir el mapeado de señales:
 
-![[modulospnpn.png]]
+![[Pasted image 20220906122500.png]]
 
-Lo que se configura en **X1** debe configurarse a la inversa en **X2**, es decir:
+En el otro proyecto habría que conectar el controlador al **X2** en vez de a **X1** y configurar el mapeado teniendo en cuenta que la zona a configurar es la **X2**, donde deberá ser un espejo de **X1**.
 
+Ej:
 **X1 8Bytes IN** ----- **X2 8Bytes OUT**
 **X1 8Bytes OUT** ----- **X2 8Bytes IN**
 etc.
 
+
+## ## Configuración PN/PN Coupler fabricante externo:
+
+Si la otra máquina no es Siemens y utiliza otro entorno de programación, deberá descargar de [[Siemens]] el GSDML correcto.
+
+[GSDML PNPN Coupler](https://support.industry.siemens.com/cs/document/23742537/profinet-gsd-files-gateway?dti=0&lc=en-WW)
+
+![[arbolpnpn.png]]
+
+Hay que añadir **X1** o **X2**, depende de donde esté conectado el cable de red del equipo y configurar el mapeado igual que se hacía en TIA Portal pero con el orden de señales en espejo.
+
+Lo que se configura en **X1** debe configurarse a la inversa en **X2**, es decir:
+
+![[modulospnpn.png]]
+
+**X1 8Bytes IN** ----- **X2 8Bytes OUT**
+**X1 8Bytes OUT** ----- **X2 8Bytes IN**
+etc.
