@@ -9,7 +9,7 @@ descripcion: "Configuración PN/PN Coupler TIA Portal"
 
 ## Configuración PN/PN Coupler TIA Portal:
 
-El equipo que hay en el catálogo de [[TIA]] para el [[Config PNPN Coupler|PNPN Coupler]] es el que se utiliza cuando ambos controladores son Siemens.
+El equipo que hay en el catálogo de [[TIA]] para el [[Config PNPN Coupler|PNPN Coupler]] es el que se utiliza cuando ambos controladores son Siemens .
 Si ambos están en el mismo proyecto se utilizan ambas bocas de las dos tarjetas de red, cada una conectada a su controlador con su IP correspondiente
 
 Normalmente los controladores están en proyectos diferentes ya que los usamos (al menos en automoción) para comunicar entre PLCs de nuestra misma línea cuyas redes no se conectan fisicamente o con otras máquinas de otros proveedores.
